@@ -3,3 +3,6 @@
 
 # java-java12
 Java 12 feature examples
+
++ Switch Expression
++ teeing collector
