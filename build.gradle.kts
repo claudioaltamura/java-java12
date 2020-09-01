@@ -11,8 +11,6 @@ repositories {
 }
 
 dependencies {
-    implementation("com.google.guava:guava:28.2-jre")
-
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.0")
 
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.6.0")
@@ -34,4 +32,3 @@ val test by tasks.getting(Test::class) {
         events = setOf(TestLogEvent.PASSED, TestLogEvent.SKIPPED, TestLogEvent.FAILED)
     }
 }
-
