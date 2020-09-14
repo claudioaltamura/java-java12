@@ -6,3 +6,5 @@ Java 12 feature examples
 
 + Switch Expression
 + teeing collector
++ String methods
+    + transform
