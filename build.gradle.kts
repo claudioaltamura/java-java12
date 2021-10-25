@@ -4,6 +4,8 @@ plugins {
     java
     idea
     eclipse
+    id("com.github.ben-manes.versions") version "0.39.0"
+    id("com.diffplug.spotless") version "5.12.5"
 }
 
 repositories {
