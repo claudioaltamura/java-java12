@@ -3,9 +3,9 @@ package de.claudioaltamura.java.java12;
 /**
  * @see <a href="https://www.journaldev.com/28666/java-12-features#1-switch-expressions-preview">switch expressions</a>
  */
-public class SwitchExpression {
+class SwitchExpression {
 
-  public String day(String day) {
+  String day(String day) {
     return switch (day) {
       case "M", "W", "F" -> "MWF";
       case "T", "TH", "S" -> "TTS";
