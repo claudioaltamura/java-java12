@@ -13,6 +13,7 @@ class PatternMatchingExampleTest {
 		Object obj = patternMatchingExample.compute();
 
 		if (obj instanceof String) {
+			// can use s directly here
 			assertTrue(true);
 		}
 

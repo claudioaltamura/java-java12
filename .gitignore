@@ -14,3 +14,5 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 /todos.txt
 /.idea/
+/.project
+/.settings
