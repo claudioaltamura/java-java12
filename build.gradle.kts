@@ -4,8 +4,8 @@ plugins {
     java
     idea
     eclipse
-    id("com.github.ben-manes.versions") version "0.39.0"
-    id("com.diffplug.spotless") version "5.12.5"
+    id("com.diffplug.spotless") version "6.5.0"
+    id("com.github.ben-manes.versions") version "0.42.0"
 }
 
 repositories {
@@ -13,9 +13,9 @@ repositories {
 }
 
 dependencies {
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.0")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
 
-    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.6.0")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.2")
 }
 
 java {
